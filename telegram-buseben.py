@@ -4,7 +4,7 @@ from sms import SendSms
 from time import sleep
 from os import environ
 
-TOKEN = environ.get('TOKEN')
+TOKEN = environ.get('6035818371:AAETwR7e5PvTztpp21JVuFgvrtZnMFeXJeE')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f"Merhaba\!\nBirilerini rahatsız etmek istiyorsan doğru yere geldin\.\n*_/help_* yazarak komutları görebilirsin\.\nİyi eğlenceler\!\n\n[_Kaynak Kodu_](https://github.com/tingirifistik/Enough)\n[_Twitter_](https://twitter.com/_tingirifistik)", parse_mode='MarkdownV2')
